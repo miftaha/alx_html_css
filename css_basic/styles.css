@@ -1,0 +1,30 @@
+body,
+main {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+  width: 100%;
+}
+
+article,
+aside {
+  overflow-y: auto;
+}
+
+main {
+  flex-direction: row;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
